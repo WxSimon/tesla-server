@@ -25,8 +25,9 @@
 ### Docker 部署(推荐)
 
 ```shell
-docker run -p 9099:9099 -e MYSQL_HOST=simonxin.tpddns.cn \
+docker run -p 9099:9099 \
  -e PORT=9099 \
+ -e DB_HOST=#teslameta 数据库地址 \
  -e DB_PORT=#teslameta 数据库端口 \
  -e DB_USERNAME=#teslameta 数据库用户名 \
  -e DB_PASSWORD=#teslameta 数据库密码 \
@@ -42,6 +43,7 @@ docker run -p 9099:9099 -e MYSQL_HOST=simonxin.tpddns.cn \
 | 变量 | 含义 | 默认值 |
 | --- | --- | --- |
 | PORT | 服务端口 | 9099 |
+| DB_HOST | teslameta 数据库地址 | 127.0.0.1 |
 | DB_PORT | teslameta 数据库端口 | 5432 |
 | DB_USERNAME | teslameta 数据库用户名 | postgres |
 | DB_PASSWORD | teslameta 数据库密码 | - |
