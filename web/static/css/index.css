@@ -134,13 +134,21 @@ ion-card-header {
 }
 
 .content-item-box-location-icon {
-    font-size: 5px;
+    font-size: 15px;
     text-align: center;
     background: #cccccc;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-block;
     padding: 5px 5px;
     margin-right: 8px;
+}
+
+.start-icon {
+	background-color: #43CF7C !important;  /* Green for start point */
+}
+
+.end-icon {
+	background-color: #FF6B6B !important;  /* Red for end point */
 }
 
 .content-item-box-location-tag {
@@ -150,6 +158,7 @@ ion-card-header {
     font-weight: 400;
     display: inline-block;
     padding: 2px 8px;
+    margin-left: 10px;
 }
 
 .content-item-box-time {
