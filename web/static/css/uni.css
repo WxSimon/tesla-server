@@ -1,0 +1,18 @@
+.uni-calendar {
+    background-color: #363636;
+}
+
+[class*=uni-calendar-] {
+    color: #fff;
+}
+
+.uni-calendar-item--extra {
+    font-size: 4px;
+}
+
+.calendar-button {
+    display: initial;
+    font-size: 10px;
+    border-radius: 5px;
+    background: #12c875;
+}

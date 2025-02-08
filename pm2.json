@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "tesla_server",
+            "script": "./index.js",
+            "env_prod": {
+                "NODE_ENV": "prod",
+                "PORT": 9099
+            }
+        }
+    ]
+}
